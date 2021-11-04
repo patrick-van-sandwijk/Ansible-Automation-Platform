@@ -1,6 +1,9 @@
----
-roles:
-  - geerlingguy.postgresql
-  - davidwittman.redis
-  - lae.netbox
-  
+collections:
+  # Install a collection from Ansible Galaxy.
+  - name: geerlingguy.postgresql
+    source: https://galaxy.ansible.com
+  - name: davidwittman.redis
+    source: https://galaxy.ansible.com
+  - name: lae.netbox
+    source: https://galaxy.ansible.com
+ 
