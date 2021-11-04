@@ -1,5 +1,5 @@
-collections:
-  # Install a collection from Ansible Galaxy.
+roles:
+  # Install a role from Ansible Galaxy.
   - name: geerlingguy.postgresql
     source: https://galaxy.ansible.com
   - name: davidwittman.redis
