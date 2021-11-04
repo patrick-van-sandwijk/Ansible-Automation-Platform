@@ -1,5 +1,5 @@
 ---
-collections:
+roles:
   - geerlingguy.postgresql
   - davidwittman.redis
   - lae.netbox
